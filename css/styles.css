@@ -1,0 +1,45 @@
+/* CSS Document */
+body {
+	background-color: #e2dccd;
+}
+
+header {
+    background-color: #511515;
+	position: fixed;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	width: 100%;
+	height: 50px;
+}
+
+header nav {
+    background-color: #511515;
+}
+
+nav {
+	float: right;
+	text-align: right;
+	margin-right: 25px;
+}
+header nav ul {
+	list-style: none !important;
+	float: right;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	padding-inline-start: 40px;
+}
+nav ul li {
+	float: left;
+	font-size: 14px;
+	text-align: left;
+	margin-right: 25px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	transition: all 0.3s linear;
+}
+
+nav ul li a {
+color: #FFFFFF !important;
+	text-decoration: none;
+}

@@ -1,0 +1,208 @@
+@charset "UTF-8";
+.container header {
+    background-color: #511515;
+}
+.container header nav {
+    background-color: #511515;
+}
+.container #hero {
+    background-image: url(images/engin-akyurt-sXYBSbi7QBk-unsplash.jpg);
+    background-position: 0% 0%;
+    background-size: cover;
+}
+.container #about {
+    background-color: #511515;
+    background-image: -webkit-linear-gradient(270deg,rgba(64,22,23,1.00) 0%,rgba(208,136,136,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(64,22,23,1.00) 0%,rgba(208,136,136,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(64,22,23,1.00) 0%,rgba(208,136,136,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(64,22,23,1.00) 0%,rgba(208,136,136,1.00) 100%);
+}
+.container .gallery {
+    background-image: -webkit-linear-gradient(270deg,rgba(209,136,139,1.00) 0%,rgba(32,65,22,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(209,136,139,1.00) 0%,rgba(32,65,22,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(209,136,139,1.00) 0%,rgba(32,65,22,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(209,136,139,1.00) 0%,rgba(32,65,22,1.00) 100%);
+}
+.container .banner {
+    background-image: url(images/pups.JPG);
+}
+footer .footer_column .cards {
+}
+.container #hero .tagline {
+    text-shadow: 0px 0px;
+}
+
+
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo img {
+    width: 150px;
+    margin-bottom: 20px;
+	
+}
+
+
+#hero .hero_header .light {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    text-shadow: 0px 0px 5px #A25C5E;
+}
+.container #hero .tagline {
+    color: #000000;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    text-decoration: underline;
+    text-shadow: 0px 0px 5px #E57421;
+}
+#hero .hero_header .light {
+}
+#hero .hero_header .light {
+    background-image: url(url);
+}
+.gallery .thumbnail h4 {
+    text-transform: uppercase;
+}
+
+#subscriptions {
+    text-align: center;
+    background-color: #eee;
+    padding-top: 50px;
+}
+
+.subscription-heading h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+.columns {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.price {
+    list-style-type: none;
+    margin: 0;
+
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    flex: 1;
+    max-width: 300px;
+    border: 2px solid #B5C0D0;
+    padding: 20px;
+}
+
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+}
+
+.price .header {
+    color: white;
+    font-size: 25px;
+}
+
+.price li {
+    border-bottom: 1px solid rgba(169, 168, 168, 0.595);
+    padding: 20px;
+    text-align: center;
+}
+
+.price .grey {
+    background-color: #eee;
+    font-size: 20px;
+    border-bottom: none;
+}
+
+.button {
+    background-color: #B5C0D0;
+    border: 2px solid #B5C0D0;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 10px;
+    display: block;
+    margin: 10px auto;
+}
+
+@media only screen and (max-width: 800px) {
+    .columns {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .columns {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+#navbar-corporate a.active {
+	color: #800000;
+	font-weight: bold;
+}
+
+/* Importing a Google Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
+
+/* Changing the main font and background colour */
+
+body {
+	font-family: Raleway, sans-serif;
+	background-color: #fffcf8;
+}
+
+/* Changing the background colour for the header */
+
+header {
+	background-color: #000060;
+}
+
+/* Changing the background color for the navigation bar */
+
+.navbar {
+	background-color: #fff0e0;
+}
+
+/* Effect on social media buttons */
+
+footer a:hover {
+	opacity: .5;
+}
+
+/* Corporate navbar */
+
+#navbar-corporate a.active {
+	color: #800000;
+	font-weight: bold;
+}
+
+/* Hero Section shadow */
+
+.white-shadow {
+	text-shadow: -.01em -.01em .01em white,
+		.02em .02em .02em white,
+		0 0 .2em white,
+		0 0 .5em white;
+}
+
+
+
+
+
+

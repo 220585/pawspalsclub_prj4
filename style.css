@@ -1,8 +1,12 @@
 @charset "UTF-8";
-.container header {
+header {
     background-color: #511515;
+	position: fixed;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
 }
-.container header nav {
+header nav {
     background-color: #511515;
 }
 .container #hero {
@@ -50,3 +54,8 @@ footer .footer_column .cards {
 .gallery .thumbnail h4 {
     text-transform: uppercase;
 }
+.instagram {
+    width: 75px;
+    margin-bottom: 15px;
+}
+
