@@ -1,10 +1,31 @@
 @charset "UTF-8";
+@media only screen and (max-width: 600px) {
+  header {
+    flex-flow: column wrap;
+  }
+}
+@media screen and (max-width: 600px) {
+  .hero_header {
+    float: none;
+    width: 100%;
+  }
+}
+.responsive-image {
+  width: 100%;
+  height: auto;
+}
+@media screen and (max-width: 600px) {
+  .footer_column {
+    width: 100%;
+  }
+}
 header {
     background-color: #511515;
 	position: fixed;
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: center;
+	
 }
 header nav {
     background-color: #511515;

@@ -1,5 +1,11 @@
 @charset "UTF-8";
 /* Body */
+@media only screen and (max-width: 600px) {
+  header {
+    flex-flow: column wrap;
+	  height: 300px;
+  }
+}
 body {
 	font-family: source-sans-pro;
 	background-color: #e2dccd;
@@ -86,7 +92,7 @@ ul li:hover a {
 }
 .tagline {
     text-align: center;
-    color: #000000;
+    color: whitesmoke;
     margin-top: 4px;
     font-weight: bold;
     text-transform: uppercase;
@@ -218,7 +224,9 @@ footer .footer_column p {
 	height: auto;
 	max-width: 300px;
 	align-self: center;
+	
 }
+
 footer .footer_column p {
 	padding-left: 30px;
 	padding-right: 30px;
