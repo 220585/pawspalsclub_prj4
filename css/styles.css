@@ -48,3 +48,11 @@ color: #FFFFFF !important;
 main {
 	margin-top: 50px;
 }
+
+.img-persona {
+	height: auto;
+	max-width: 300px;
+	align-self: center;
+	
+	
+}
