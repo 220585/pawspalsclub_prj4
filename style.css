@@ -34,7 +34,7 @@ header nav {
     background-color: #511515;
 }
 .container #hero {
-    background-image: url(images/engin-akyurt-sXYBSbi7QBk-unsplash.jpg);
+    background-image: url("images/paws.jpg");
     background-position: 0% 0%;
     background-size: cover;
 }

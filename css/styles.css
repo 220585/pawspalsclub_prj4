@@ -1,6 +1,8 @@
 /* CSS Document */
 body {
 	background-color: #e2dccd;
+	font-family: source-sans-pro;
+
 }
 
 header {
@@ -60,4 +62,9 @@ main {
 .responsive {
 	width: 100%;
   height: auto;
+}
+
+
+.nav-color {
+	background-color:#FF7919;
 }
