@@ -59,6 +59,12 @@ main {
 	
 }
 
+.img-canva {
+	height: auto;
+	max-width: 600px;
+	align-self: center;
+}
+
 .responsive {
 	width: 100%;
   height: auto;

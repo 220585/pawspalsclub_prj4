@@ -72,6 +72,26 @@ ul li:hover a {
 	margin-left: 0px;
 	letter-spacing: 4px;
 }
+
+.contact-us {color: #FFFFFF;
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left:0px ;
+	letter-spacing: 4px;
+		
+}
+
+.contact-text {
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left:0px ;
+	letter-spacing: 4px
+	
+}
 /* Hero Section */
 .hero {
 	background-color: #B3B3B3;
